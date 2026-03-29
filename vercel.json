@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "env": {
+    "ANTHROPIC_API_KEY": "@anthropic-api-key",
+    "ELEVENLABS_API_KEY": "@elevenlabs-api-key",
+    "ELEVENLABS_VOICE_ID": "@elevenlabs-voice-id"
+  },
+  "buildCommand": "npm run build",
+  "framework": "nextjs"
+}
