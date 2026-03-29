@@ -8,12 +8,14 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "dependencies": {
-    "next": "15.2.3",
+    "next": "15.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "@anthropic-ai/sdk": "^0.39.0",
-    "elevenlabs": "^1.50.2"
+    "@anthropic-ai/sdk": "^0.39.0"
   },
   "devDependencies": {
     "typescript": "^5",
